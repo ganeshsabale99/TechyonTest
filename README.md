@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React.js Frontend Developer Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+This project is a frontend application developed using React.js and SCSS. It showcases the skills in building responsive, interactive, and dynamic web applications. The goal of this project was to create a user-friendly interface while adhering to best practices in frontend development.
 
-## Available Scripts
+The application is designed with the following objectives:
+- Efficient rendering and performance optimization.
+- Scalable architecture to handle future feature expansions.
+- Responsive design that adjusts seamlessly across different screen sizes.
 
-In the project directory, you can run:
+## Features
+- **Responsive Design**: Uses media queries to make the application mobile-friendly and adaptable to different devices.
+- **React.js**: Core technology used to build the user interface with reusable components.
+- **SCSS**: SCSS is used for styling, ensuring clean, maintainable, and structured styles.
+- **State Management**: Implements React hooks (`useState`, `useEffect`) for managing component state and lifecycle events.
+- **API Integration**: Includes API calls to fetch data and display dynamic content.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+To run this project locally, ensure you have the following tools installed:
+- Node.js
+- npm (Node Package Manager)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Live Demo
+You can view the live demo of the project on Netlify here:
+[Live Demo on Netlify](https://67718ee75d0d594486a3e7ff--brilliant-kulfi-33a9ab.netlify.app/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+- **React.js**: JavaScript library for building user interfaces.
+- **SCSS**: Sassy CSS, a CSS preprocessor for more powerful styling.
+- **Axios**: HTTP client for making API requests.
+- **React Router**: For handling page navigation within the application.
