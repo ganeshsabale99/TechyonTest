@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    padding: 10px 10px 10px 20px; 
+    background: var(--Var-prime-blue, #2D446E); 
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%; 
+    z-index: 10; 
+  }
+
+  .subHeader{
+    display: flex;
+    gap: 50px;
+  }
+  
+  .logo {
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  .right-side {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 15px; 
+    padding: 10px 40px 10px 10px; 
+  }
+
+  .icon {
+    width: 20px;
+height: 20px;
+
+&.notification {
+    .badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      min-width: 20px;
+      height: 20px;
+      background-color: red;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+  
+  .Notiicon{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+border: 0.5px solid #FFF;
+background: rgba(255, 255, 255, 0.30);
+  }
+  
